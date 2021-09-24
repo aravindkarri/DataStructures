@@ -33,5 +33,9 @@ public class LinkedListMain
         System.out.println("Insert a node 40 after 30 in the linked list");
         linkedListObj1.insertAfterNode(30,40);
         linkedListObj1.display();
+        System.out.println("Delete a node 40 from the linked list");
+        linkedListObj1.deleteNode(40);
+        linkedListObj1.display();
+        linkedListObj1.size();
     }
 }
