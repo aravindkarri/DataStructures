@@ -2,7 +2,7 @@ package com.bridgelabz.linkedlist;
 
 public class LinkedListService<T extends Comparable<T>>
 {
-    Node<T> head;
+    public Node<T> head;
     //Method to add nodes at the front in the linked list
     public void add(T data)
     {
