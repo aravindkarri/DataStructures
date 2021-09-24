@@ -127,7 +127,7 @@ public class LinkedListService<T extends Comparable<T>>
         }
         System.out.println("Size of the linked list is: "+count);
     }
-    //Method to create ordered linked list
+    //Method to create ordered linked list in ascending order
     public void sortList()
     {
         Node<T> current= head;
