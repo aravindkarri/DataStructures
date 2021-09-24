@@ -14,7 +14,7 @@ public class StackService<T extends Comparable<T>>
     {
         linkedList.pop();
     }
-    //method to get the top element from the stack
+    //method to get top element from the stack
     public void peak()
     {
         System.out.println("top element is: " +linkedList.head.data);

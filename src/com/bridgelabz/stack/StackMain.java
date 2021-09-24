@@ -4,7 +4,7 @@ public class StackMain
 {
    public static void main(String[] args)
    {
-       StackService<Integer> stack = new StackService<>();
+       StackService<Integer> stack = new StackService<Integer>();
        System.out.println("Create a simple stack using linked list");
        stack.push(70);
        stack.push(30);
